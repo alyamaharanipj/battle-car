@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="181511038_BattleCar" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/181511038_BattleCar" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/181511038_BattleCar" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="DataType.h" />
+		<Unit filename="JTKPOLBAN.h" />
+		<Unit filename="errcheck.cpp" />
+		<Unit filename="fatal.cpp" />
+		<Unit filename="gl_texture.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/Body.h" />
+		<Unit filename="include/Bumper.h" />
+		<Unit filename="include/Car.h" />
+		<Unit filename="include/Cube.h" />
+		<Unit filename="include/Face.h" />
+		<Unit filename="include/Laser.h" />
+		<Unit filename="include/Material.h" />
+		<Unit filename="include/Model.h" />
+		<Unit filename="include/PoliceCar.h" />
+		<Unit filename="include/Road.h" />
+		<Unit filename="include/SideRoad.h" />
+		<Unit filename="include/StraightRoad.h" />
+		<Unit filename="include/Wheel.h" />
+		<Unit filename="loadpng.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="loadpng.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="loadtexbmp.cpp" />
+		<Unit filename="lodepng.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="lodepng.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Unit filename="object.cpp" />
+		<Unit filename="print.cpp" />
+		<Unit filename="process_image.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="process_image.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="project.cpp" />
+		<Unit filename="src/Body.cpp" />
+		<Unit filename="src/Bumper.cpp" />
+		<Unit filename="src/Car.cpp" />
+		<Unit filename="src/Cube.cpp" />
+		<Unit filename="src/Face.cpp" />
+		<Unit filename="src/Laser.cpp" />
+		<Unit filename="src/Material.cpp" />
+		<Unit filename="src/Model.cpp" />
+		<Unit filename="src/PoliceCar.cpp" />
+		<Unit filename="src/Road.cpp" />
+		<Unit filename="src/SideRoad.cpp" />
+		<Unit filename="src/StraightRoad.cpp" />
+		<Unit filename="src/Wheel.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
