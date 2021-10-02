@@ -24,4 +24,4 @@ Battle car is a game with the concept of police car that chasing thief. Police c
 ![map](https://github.com/alyamaharanipj/battle-car/blob/main/screenshot/4.png)
 
 # Note
-For more explanation how this game work, watch here: https://www.youtube.com/watch?v=M1wQCor7Xw4
+For more explanation how this game works, watch here: https://www.youtube.com/watch?v=M1wQCor7Xw4
